@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container{
+    width: 1123px;
+    margin: auto;
+    padding: auto;
+}
+.background-img{
+background-image: url(image/banner-bg.jpg);
+}
+
+
+.header{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+.header-logo{
+    height: 40px;
+    font-size: 38px;
+    color: white;
+}
+.header-navi{
+    word-spacing: 1cm;
+    padding: 15px;
+}
+
+.banner-txt1{
+    font-size: 45px;
+    color: white;
+}
+
+.banner{
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+.banner-txt2{
+    font-size: 26px;
+    color: white;
+}
+
+.banner-text-container{
+    text-align: center;
+    padding: 74px;
+}
+.get{
+    margin: auto;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+
+.container-1{
+    width: 1133px;
+    margin: auto;   
+}
+.about-wrapper{
+    display: flex;
+    padding: 52px;
+    justify-content: space-between;
+}
+.about-txt-container{
+    width: 571px;
+}
+.about-head{
+ font-size: 35px;
+ color: black;
+}
+.about-para{
+    color: rgb(61, 58, 58);
+}
+a.about-link{
+    color: black;
+    padding: 15px;
+}
+.abt-img{
+  float: right; 
+}
+.link-wrapper1{
+    display: flex;
+}
+
+
+.facts{
+    background-color: beige;
+}
+.fact-head{
+  text-align: center;
+  padding: 17px;  
+}
+.fact-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.service-h{
+    text-align: center;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 553px;
+}
